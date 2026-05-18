@@ -22,6 +22,12 @@ From the project root, run:
 mvn clean javafx:run
 ```
 
+In IntelliJ IDEA, import the folder as a Maven project, wait for Maven dependencies to load, and run:
+
+```text
+com.example.ticketsupp.Launcher
+```
+
 The app creates a local SQLite database file named `tickets.db` automatically when it starts.
 
 ## Main Features
